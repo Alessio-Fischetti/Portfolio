@@ -4,8 +4,6 @@
     <div class="introduzione">
       <div class="title_job">
         <TypingAnimation />
-        <p class="title">Ciao, sono Alessio Fischetti</p>
-        <p class="job">un Frontend Web Developer focalizzato nella creazione di Siti e Applicazioni Web</p>
       </div>
     </div>
     <div class="scroll_suggestion">
@@ -48,24 +46,6 @@ export default defineComponent({
   align-items: center;
 }
 
-/* Titolo e lavoro */
-.title,
-.job {
-  font-family: Readex Pro;
-}
-
-.title {
-  font-size: 3rem;
-  font-weight: bold;
-  padding: 1% 0;
-}
-
-.job {
-  width: 40%;
-  font-size: 1.7rem;
-  margin: 0;
-}
-
 .title_job {
   display: flex;
   justify-content: center;
@@ -78,49 +58,5 @@ export default defineComponent({
 /* Scroll */
 .scroll_suggestion {
   margin-bottom: 50px;
-}
-@media (min-width: 320px) {
-  /* smartphones, iPhone, portrait 480x320 phones */
-  .title {
-    font-size: 2.2em;
-  }
-  .title_job {
-    transform: translatey(-25px);
-  }
-}
-
-@media (min-width: 280px) {
-  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-  .job {
-    width: 100%;
-  }
-}
-@media (min-width: 641px) {
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-  .title {
-    font-size: 3em;
-  }
-  .title_job {
-    transform: translatey(-25px);
-  }
-}
-@media (min-width: 912px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .title {
-    font-size: 4em;
-  }
-  .job {
-    font-size: 2.2em;
-  }
-}
-@media (min-width: 1024px) {
-  /* big landscape tablets, laptops, and desktops */
-  .title {
-    font-size: 3em;
-  }
-  .job {
-    font-size: 1.7em;
-    width: 50%;
-  }
 }
 </style>

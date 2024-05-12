@@ -42,15 +42,17 @@ export default defineComponent({
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: bold;
   padding: 1% 0;
 }
 
 .job {
+  max-width: 70%;
   width: fit-content;
   font-size: 1.7rem;
   margin: 0;
+  z-index: 10;
 }
 
 /* Animazione Cursore */
@@ -73,48 +75,4 @@ export default defineComponent({
   }
 }
 
-@media (min-width: 320px) {
-  /* smartphones, iPhone, portrait 480x320 phones */
-  .title {
-    font-size: 1.2em;
-  }
-  .title_job {
-    transform: translatey(-25px);
-  }
-}
-
-@media (min-width: 280px) {
-  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-  .job {
-    max-width: 100%;
-  }
-}
-@media (min-width: 641px) {
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-  .title {
-    font-size: 2em;
-  }
-  .title_job {
-    transform: translatey(-25px);
-  }
-}
-@media (min-width: 912px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .title {
-    font-size: 1.5em;
-  }
-  .job {
-    font-size: 2.2em;
-  }
-}
-@media (min-width: 1024px) {
-  /* big landscape tablets, laptops, and desktops */
-  .title {
-    font-size: 2em;
-  }
-  .job {
-    font-size: 1.7em;
-    max-width: 100%;
-  }
-}
 </style>

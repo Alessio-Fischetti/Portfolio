@@ -4,21 +4,17 @@
       <div class="descrizione_footer">
         <h2>FISCHETTI ALESSIO</h2>
         <span
-          >Sono un appassionato sviluppatore Front-end dedicato a trasformare
-          idee creative in esperienze web coinvolgenti. Con una fervente
-          passione per il design e la precisione del codice.</span
+          >Sono un appassionato sviluppatore Front-end dedicato a trasformare idee creative in esperienze web coinvolgenti. Con una fervente passione per il design e la precisione del codice.</span
         >
       </div>
       <div class="social_footer">
         <h2>SOCIAL</h2>
         <ul>
-          <li>E-MAIL: fischetti022002@gmail.com</li>
+          <li>E-MAIL: afischetti.work@gmail.com</li>
           <li>WHATSAPP: +39 380 194 9521</li>
           <li>
             LINKEDIN:
-            <a href="https://www.linkedin.com/in/alessio-fischetti-a085ab20a/"
-              >Fischetti Alessio</a
-            >
+            <a href="https://www.linkedin.com/in/alessio-fischetti-a085ab20a/">Fischetti Alessio</a>
           </li>
         </ul>
       </div>
@@ -143,7 +139,7 @@ footer {
   }
 
   .copyright span {
-  font-size: 1.3rem;
-}
+    font-size: 1.3rem;
+  }
 }
 </style>

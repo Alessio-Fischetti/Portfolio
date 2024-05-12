@@ -124,13 +124,13 @@ export default defineComponent({
   height: 100%;
 }
 .senza_ham {
-  padding: 0;
+  padding: 0 10px 0 0;
   margin: 0;
   height: 90px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-content: center;
-  gap: 10%;
+  gap: 2rem;
   list-style-type: none;
 }
 

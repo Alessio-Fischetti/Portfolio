@@ -16,7 +16,7 @@
 import { defineComponent } from "vue";
 import ScrollSuggestion from "../assets/ScrollSuggestion.vue";
 import BackgroundIntroduzione from "../assets/BackgroundIntroduzione.vue";
-import TypingAnimation from "../shared/TypingAnimation.vue";
+import TypingAnimation from "./NavBar/TypingAnimation.vue";
 
 export default defineComponent({
   name: "ComponenteIntroduzione",

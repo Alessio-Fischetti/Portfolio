@@ -2,12 +2,22 @@
   "name": "portfolio-fischetti-alessio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alessio-fischetti.github.io/Portfolio/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "vue-cli-service build --mode production && gh-pages -d dist"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "sass": "^1.77.0",
+    "sass-loader": "^14.2.1",
+    "swiper": "^11.0.5",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0"
   },

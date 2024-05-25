@@ -4,8 +4,9 @@
     <Introduzione id="home" />
     <div class="main_content">
       <AboutMe id="about" />
-      <Progetti id="progetti" />
-      <Competenze id="competenze" />
+      <!--    <Progetti id="progetti" />
+      <Competenze id="competenze" /> -->
+      <div style="margin-top: 2rem; text-align: center; font-size: 2rem">Work in progress...</div>
     </div>
   </main>
   <FooterComponent />
